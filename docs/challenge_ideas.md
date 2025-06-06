@@ -1,38 +1,41 @@
 # Challenge Ideas
 
 ## Basic Challenges
-1. **SQL Injection**
-   - Category: Web Exploitation
-   - Description: Bypass login page using SQL Injection.
-   - Flag: flag{BASIC_SQLI_123}
-   - Setup: Node.js app with PostgreSQL.
-   - Points: 100
+1. **SQL Injection** (unchanged from previous artifact)
+2. **XSS** (unchanged)
+3. **Port Scanning** (unchanged)
+4. **Weak Password** (unchanged)
+5. **File Recovery** (unchanged)
 
-2. **XSS**
+## Medium Challenges
+1. **Buffer Overflow**
+   - Category: Binary Exploitation
+   - Description: Exploit a C program to gain shell access.
+   - Flag: flag{BOF_SHELL_456}
+   - Setup: Docker container with compiled binary.
+   - Points: 300
+2. **CSRF**
    - Category: Web Exploitation
-   - Description: Inject script to steal flag from admin session.
-   - Flag: flag{XSS_COOKIE_123}
+   - Description: Forge a CSRF attack to change admin password.
+   - Flag: flag{CSRF_ADMIN_456}
    - Setup: Node.js app.
-   - Points: 150
-
-3. **Port Scanning**
+   - Points: 250
+3. **Packet Analysis**
    - Category: Network Pentest
-   - Description: Scan for hidden port to retrieve flag.
-   - Flag: flag{PORT_SCAN_123}
-   - Setup: Docker container with hidden service.
-   - Points: 100
-
-4. **Weak Password**
+   - Description: Analyze PCAP file to find flag in HTTP traffic.
+   - Flag: flag{PCAP_FLAG_456}
+   - Setup: Docker container with PCAP file.
+   - Points: 200
+4. **Hash Cracking**
    - Category: Cryptography
-   - Description: Crack MD5 hash to reveal flag.
-   - Flag: flag{WEAK_HASH_123}
+   - Description: Crack SHA-1 hash to reveal flag.
+   - Flag: flag{SHA1_CRACK_456}
    - Setup: Text file with hashed flag.
-   - Points: 120
-
-5. **File Recovery**
+   - Points: 220
+5. **Steganography**
    - Category: Forensics
-   - Description: Recover deleted flag file from disk image.
-   - Flag: flag{FILE_RECOVERY_123}
-   - Setup: Docker container with disk image.
-   - Points: 130
+   - Description: Extract flag hidden in PNG image.
+   - Flag: flag{STEGO_PNG_456}
+   - Setup: Docker container with image file.
+   - Points: 230
    
