@@ -23,3 +23,4 @@ A CTF platform focused on penetration testing, deployed on Kali Linux, with chal
 - CTF platform with 20+ challenges.
 - Documentation for setup, usage, and challenge creation.
 - GitHub repository with source code and deployment scripts.
+- Tech: Node.js, React, PostgreSQL, Docker, Kali Linux.
