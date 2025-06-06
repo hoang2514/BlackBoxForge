@@ -38,4 +38,34 @@
    - Flag: flag{STEGO_PNG_456}
    - Setup: Docker container with image file.
    - Points: 230
+6. **File Inclusion**
+   - Category: Web Exploitation
+   - Description: Exploit LFI to read /flag.txt.
+   - Flag: flag{LFI_FLAG_456}
+   - Setup: Node.js app with vulnerable file inclusion.
+   - Points: 270
+7. **Protocol Exploitation**
+   - Category: Network Pentest
+   - Description: Exploit FTP misconfiguration to retrieve flag.
+   - Flag: flag{FTP_EXPLOIT_456}
+   - Setup: Docker container with FTP server.
+   - Points: 260
+8. **Format String**
+   - Category: Binary Exploitation
+   - Description: Exploit format string vulnerability in C program.
+   - Flag: flag{FORMAT_STRING_456}
+   - Setup: Docker container with compiled binary.
+   - Points: 280
+9. **Log Analysis**
+   - Category: Forensics
+   - Description: Find flag in Apache access logs.
+   - Flag: flag{LOG_ANALYSIS_456}
+   - Setup: Docker container with log files.
+   - Points: 240
+10. **Linux Privesc**
+    - Category: Privilege Escalation
+    - Description: Exploit sudo misconfiguration to gain root access.
+    - Flag: flag{SUDO_PRIVES_456}
+    - Setup: Docker container with misconfigured sudo.
+    - Points: 290
    
